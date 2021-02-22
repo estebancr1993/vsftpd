@@ -134,6 +134,8 @@ Reiniciar servicio.
 
 **COMPROBACIÓN**
 
+Nos deja subir pero no descargar.
+
 ![12](https://github.com/estebancr1993/vsftpd/blob/main/imagenes/12.JPG)
 
 **8.-Creación usuarios virtuales.**
