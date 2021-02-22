@@ -103,6 +103,8 @@ Reiniciar servicio.
 
 
 **COMPROBACIÓN**
+
+Nos deja bajar pero no subir.
  
 ![10](https://github.com/estebancr1993/vsftpd/blob/main/imagenes/10.JPG)
 
