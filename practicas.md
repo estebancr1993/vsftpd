@@ -73,6 +73,10 @@ Agregue estas dos opciones para restringir a los usuarios de FTP a sus directori
 
 ```allow_writeable_chroot=YES```
 
+NOTA: Un usuario enjaulado no puede tener permisos de escritura por lo que modificarlo con:
+
+```chmod a-w -R /home/```
+
 ![7](https://github.com/estebancr1993/vsftpd/blob/main/imagenes/7.JPG)
 
 > chroot_local_user = YES significa que los usuarios locales serán ubicados en una jaula chroot, su directorio de inicio después de iniciar sesión con la configuración predeterminada.
