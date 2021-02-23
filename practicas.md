@@ -213,6 +213,10 @@ openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout vsftpd.pem -out vsft
 
 ```ssl_enable=YES```
 
+- Podemos añadir la siguiente para que puedan acceder todos (anonymous,usuarios virtuales y usuarios del sistema)
+
+```allow_anon_ssl=YES```
+
 **COMPROBACIÓN**
 
 ![14](https://github.com/estebancr1993/vsftpd/blob/main/imagenes/14.JPG)
